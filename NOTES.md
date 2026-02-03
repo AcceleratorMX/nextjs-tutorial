@@ -61,3 +61,17 @@ Created database and implemented into project<br>
 
 Uncomment code in [route.ts](app/query/route.ts) to test database query<br>
 ![Database query](screenshots/database-query.png)
+
+## 7. Fetching Data
+
+Fetching revenue data from database<br>
+![Fetching revenue data](screenshots/fetching-revenue-console.png)<br>
+![Fetching revenue data](screenshots/fetching-revenue-browser.png)
+
+Getting latest invoices from database<br>
+![Getting latest invoices](screenshots/getting-latest-invoices.png)
+
+Getting card data from database<br>
+![Getting card data](screenshots/getting-card-data.png)
+
+## 8. Static and Dynamic Rendering
