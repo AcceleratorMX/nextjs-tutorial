@@ -50,3 +50,14 @@ Added `usePathname` and `clsx` to [nav-links.tsx](app/ui/dashboard/nav-links.tsx
 ![Nav-links.tsx](screenshots/nav-links.png)
 
 ## 6. Setting Up Your Database
+
+Deployed project on [Vercel](https://nextjs-tutorial-mg1i59xzm-redfields-projects.vercel.app/)<br>
+![Vercel](screenshots/vercel-deployment-details.png)<br>
+![Vercel](screenshots/vercel-deployment-browser.png)
+
+Created database and implemented into project<br>
+![Database](screenshots/database-created.png)<br>
+![Database](screenshots/database-implemented.png)
+
+Uncomment code in [route.ts](app/query/route.ts) to test database query<br>
+![Database query](screenshots/database-query.png)
