@@ -44,3 +44,9 @@ Created [dashboard layout](app/dashboard/layout.tsx)<br>
 ![Dashboard layout](screenshots/dashboard-layout.png)
 
 ## 5. Navigating Between Pages
+
+Replaced `<a>` with `<Link>` in [nav-links.tsx](app/ui/dashboard/nav-links.tsx)<br>
+Added `usePathname` and `clsx` to [nav-links.tsx](app/ui/dashboard/nav-links.tsx)<br>
+![Nav-links.tsx](screenshots/nav-links.png)
+
+## 6. Setting Up Your Database
