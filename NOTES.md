@@ -75,3 +75,8 @@ Getting card data from database<br>
 ![Getting card data](screenshots/getting-card-data.png)
 
 ## 8. Static and Dynamic Rendering
+
+Fetching revenue with delay<br>
+![Fetching revenue with delay](screenshots/fetch-revenue-with-delay.png)
+
+## 9. Streaming
