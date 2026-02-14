@@ -95,3 +95,14 @@ Implementing `<Suspense />` for `<CardWrapper />` in [page.tsx](<app/dashboard/(
 
 Implementing `<Card />` components in [cards.tsx](app/ui/dashboard/cards.tsx)<br>
 ![Implementing Card components](screenshots/cards-realisation-page.png)
+
+## 10. Adding Search and Pagination
+
+Search implementation in [search.tsx](app/ui/search.tsx)<br>
+![Search implementation](screenshots/search-with-debounce-console.png)<br>
+![Search implementation](screenshots/search-with-debounce-browser.png)
+
+Added pagination to [invoices page](app/dashboard/invoices/page.tsx)<br>
+![Pagination](screenshots/pagination.png)
+
+## 11. Mutating Data
