@@ -106,3 +106,24 @@ Added pagination to [invoices page](app/dashboard/invoices/page.tsx)<br>
 ![Pagination](screenshots/pagination.png)
 
 ## 11. Mutating Data
+
+Added [invoice creation page](app/dashboard/invoices/create/page.tsx)<br>
+![Create invoice page](screenshots/create-invoice-page.png)
+
+Checking console for raw data from form<br>
+![Checking console for raw data from form](screenshots/checking-console-for-raw-data-from-form.png)
+
+Updated [actions.ts](app/lib/actions.ts) with database query<br>
+Create new invoice for checking<br>
+![Create new invoice for checking](screenshots/new-invoice-checking.png)
+
+Created [edit invoice page](app/dashboard/invoices/[id]/edit/page.tsx)<br>
+![Edit invoice page](screenshots/edit-invoice-page.png)
+
+Updated [actions.ts](app/lib/actions.ts), [edit-form.tsx](app/ui/invoices/edit-form.tsx), [button.tsx](app/ui/button.tsx) and checking update functionality<br>
+![Update existing invoice for checking](screenshots/update-existing-invoice-for-checking.png)
+
+Updated [buttons.tsx](app/ui/invoices/buttons.tsx), [actions.ts](app/lib/actions.ts) and checking delete functionality<br>
+![Delete invoice for checking](screenshots/delete-invoice-for-checking.png)
+
+## 12. Handling Errors
