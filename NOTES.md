@@ -127,3 +127,16 @@ Updated [buttons.tsx](app/ui/invoices/buttons.tsx), [actions.ts](app/lib/actions
 ![Delete invoice for checking](screenshots/delete-invoice-for-checking.png)
 
 ## 12. Handling Errors
+
+Added error handling with `try-catch` blocks to [actions.ts](app/lib/actions.ts)<br>
+Testing error handling with temporary `throw new Error()` function <br>
+![Error handling](screenshots/error-handling-console.png)<br>
+![Error handling](screenshots/error-handling-browser.png)
+
+Created [error.tsx](app/dashboard/invoices/error.tsx) file to handle errors in [invoices page](app/dashboard/invoices/page.tsx)<br>
+![Error handling](screenshots/component-error-handling-browser.png)
+
+Created [not-found.tsx](app/dashboard/invoices/[id]/edit/not-found.tsx) file to handle not-found errors in [edit invoice page](app/dashboard/invoices/[id]/edit/page.tsx)<br>
+![Not-found handling](screenshots/not-found-handling-browser.png)
+
+## 13. Improving Accessibility
