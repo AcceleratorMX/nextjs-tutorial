@@ -80,3 +80,18 @@ Fetching revenue with delay<br>
 ![Fetching revenue with delay](screenshots/fetch-revenue-with-delay.png)
 
 ## 9. Streaming
+
+Dashboard page skeleton<br>
+![Dashboard page skeleton](screenshots/dashboard-page-skeleton.png)
+
+Created [overview](<app/dashboard/(overview)/>) directory with [page.tsx](<app/dashboard/(overview)/page.tsx>) and [loading.tsx](<app/dashboard/(overview)/loading.tsx>)<br>
+![Overview directory](screenshots/overview-directory.png)
+
+Loading `<RevenueChart />` with `<Suspense />` <br>
+![Loading RevenueChart](screenshots/loading-revenue-separately.png)
+
+Implementing `<Suspense />` for `<CardWrapper />` in [page.tsx](<app/dashboard/(overview)/page.tsx>)<br>
+![Implementing Suspense for CardWrapper](screenshots/cardWrapper-page.png)
+
+Implementing `<Card />` components in [cards.tsx](app/ui/dashboard/cards.tsx)<br>
+![Implementing Card components](screenshots/cards-realisation-page.png)
