@@ -162,3 +162,7 @@ Successfully logged in<br>
 ![Successfully logged in](screenshots/successfully-logged-in.png)
 
 ## 15. Adding Metadata
+
+Added metadata to all pages<br>
+Example on `dashboard page`<br>
+![Metadata](screenshots/metadata-dashboard.png)
