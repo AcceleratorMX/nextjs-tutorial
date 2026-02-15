@@ -140,3 +140,15 @@ Created [not-found.tsx](app/dashboard/invoices/[id]/edit/not-found.tsx) file to 
 ![Not-found handling](screenshots/not-found-handling-browser.png)
 
 ## 13. Improving Accessibility
+
+Created [eslint.config.mjs](eslint.config.mjs) file to configure ESLint and run `pnpm lint` command<br>
+![ESLint config](screenshots/eslint-first-run.png)
+
+Start ESLint with commented `alt` attribute in [table.tsx](app/ui/invoices/table.tsx)<br>
+![ESLint with commented alt attribute](screenshots/eslint-with-commented-alt-attribute.png)
+
+Added `required` attribute to form fields in [create-form.tsx](app/ui/invoices/create-form.tsx) and send empty form to check error handling<br>
+![Required attribute](screenshots/required-attribute.png)
+
+Implemented `useActionState` hook and replaced `required` attribute with `aria-describedby` attribute in [create-form.tsx](app/ui/invoices/create-form.tsx) and send empty form to check error handling<br>
+![Aria-describedby attribute](screenshots/aria-describedby-attribute-create-form.png)
