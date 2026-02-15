@@ -152,3 +152,13 @@ Added `required` attribute to form fields in [create-form.tsx](app/ui/invoices/c
 
 Implemented `useActionState` hook and replaced `required` attribute with `aria-describedby` attribute in [create-form.tsx](app/ui/invoices/create-form.tsx) and send empty form to check error handling<br>
 ![Aria-describedby attribute](screenshots/aria-describedby-attribute-create-form.png)
+
+## 14. Adding Authentication
+
+Implemented authentication logic <br>
+![Authentication logic](screenshots/login-form.png)
+
+Successfully logged in<br>
+![Successfully logged in](screenshots/successfully-logged-in.png)
+
+## 15. Adding Metadata
